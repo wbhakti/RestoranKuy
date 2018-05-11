@@ -1,0 +1,46 @@
+
+1. output : Code was busted
+2. menjadi boros kapasitas, karena yang dicadangkan menjadi 4 sedangkan isi dari array hanya 3, sebaiknya untuk reserveCapacity mengetahui jumlah dari arraynya.
+3. output : Criminal masterminds: malcolm, kaylee, zoe, Karena inputan string array yang di gabungkan (joined) dengan sparator ", "
+4. output : message one, dikarenakan nilai dari userLoggedIn adalah optional maka perlu tanda exclamation di belakang untuk wraping, sehingga apabila di depan userLoggedIn ditambahi tanda exclamation maka nilai nya akan menjadi kebalikan yaitu TRUE, apa bila hanya di tambahi tanda exclamation di depan akan menyebabkan error karena userLoggedIn adalah optional value
+5. output : FizzBuzz, karena hasil pembagian dari 15%3 akan sisa 0 dan 15%5 sisa 0, maka (15%3 == 0) adalah true dan (15%5 == 0) adalah true
+6. output : simons, karena dari array dictionary "name" key "doctor" mempunyai value "simons" 
+8. output : 1 , karena dari dictionary dari "crew" hanya sekali set value.
+9. output : 1,3,5,7,9 karena yang di print adalah nilai dari numbers bukan nilai result yang dimana setiap nilai dari array di kali 10
+10. output : 16 , karena 16 adalah nilai decimal dari nilai hexadecimal 0x10, dan "foo" akan menjadi Int, maka jika nilai foo di print akan menampilkan 16
+11. output : Enterprise A, Karena 
+12. output : 1701, karena nilai dari string tersebut di konversi ke tipe Int
+13. output : crew, Fallthrough Statement akan meng eksekusi satu step case selanjutnya meskipun nilai casenya berbeda
+14. output : nilai result [5,7,9], Karena nilai array dari numbers di filter berdasar nilai >= 5.
+15. output : Serenity, karena sereniti.name di initial dengan "Serenity"
+16. output : 9, Karena nilai dr array numbers=Array(1..<10)=[1,2,3,4,5,6,7,8,9]
+17. output : ["Malkovitch","Malkovitch"], Karena array repeating adalah membuat array baru dengan nilai sama yang di ulang dengan jumlah tertentu
+18. output : X was 556, karena switch akan mecocokan berdasar pola (pattern matching), sehingga pola yg cocok dengan point adalah case peratama
+19. output : [[1, 1], [2, 2], [3, 3]], karena nilai dari array [1,2,3] di ubah ke bentuk array dictionary dengan nilai key dan value sama dari array [1,2,3] 
+20. output : 1 5 9 13, karena pengulangan dari 1 dan kurang dari(to) 17 dengan melangkah(stride) 4 
+21. menggunakan guard statement, karena guard mengkobinasikan optional unwrapping dan where clauses sekaligus
+22. - LAUNCH TIME
+	user tap application icon
+	main()
+	UIApplicationMain()
+	Load Main UI File
+	First initialization : willFinishLaunchingWithOption
+	Restore UI State
+	Final initialization : diFinishLaunchingWithOption
+
+	- RUNNING
+	active the app
+	handle event
+
+	- FOREGROUND
+	Deactive this app : applicationWillResignActive
+
+	- BACKGROUND
+	enter background : applicationDidEnterBackground
+
+	- SUSPENDED
+	App sleep
+
+23. dengan menggunakan auto layout : Stack Views, Simple Constraint, Views with Intrinsic Content Size
+
+
